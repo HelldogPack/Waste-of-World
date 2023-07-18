@@ -1,0 +1,45 @@
+#Temperature at wich feathers stop regenerating. 0.0 is normal temperature, 1.0 is same as when receiving cold damage
+#Range: 0.0 ~ 2.0
+"Feather's Freeze Temperature" = 0.6
+#Is the feature active?
+"Block Break Check" = true
+
+[Backpack]
+	#Inventory slots that the backpack gives. First is non enchanted and the rest are an enchantment level each. Non-accumulative.
+	"Backpack Sizes" = [9, 14, 18]
+	#List of costs for the Deep Pockets levels.
+	"Deep Pockets Costs" = [30]
+	#Minimum power required on a enchanting table for a backpack to be enchantable.
+	#Range: 0 ~ 30
+	"Backpack Minimum Enchanting Table Power" = 30
+
+["Compact Machines"]
+	#Daily Tick from which to start enforcing compact machines unavailability
+	#Range: 0 ~ 23999
+	"Compact Machines Unavailability Start" = 12000
+	#End for above effect. Setting this to the same value as adobe will disable Compact machines at all times.
+	#Range: 0 ~ 23999
+	"Compact Machines Unavailability End" = 1000
+
+#Underground air is unbreathable.
+["Toxic Gas"]
+	#Is the feature active?
+	Enabled = false
+	#The toxic gas will start at this additional distance from the surface.
+	"Cave Asphyxiation Height Offset" = 8
+	#Y-level below which cave asphyxiation will always apply.
+	"Cave Asphyxiation Damage Height" = 50
+	#Amount of ticks between the damage caused by cave gas asphyxiation.
+	"Cave Asphyxiation Damage Interval" = 120
+	#Amount of damage caused by cave gas asphyxiation.
+	"Cave Asphyxiation Damage Amount" = 3.0
+	#Amount of ticks that the protective mask supplies air for.
+	"Mask Capacity" = [12000, 18000, 24000]
+	#Air that the mask gains each tick when refillable.
+	"Mask Refill Speed" = 3
+
+#Certain conditions will temporally lower your max hp.
+[Radiation]
+	#Is the feature active?
+	Enabled = false
+

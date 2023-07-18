@@ -1,0 +1,34 @@
+{
+	"pack": {
+		"pack_format": 10,
+		"description": "NeWind: Waste of World modpack datapack."
+	},
+	"filter": {
+		"block": [
+			{
+				"namespace": "^minecraft$",
+				"path": "(?<!nugget|copper_ingot|dried_kelp|lime_dye)_from_smelting.*"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipes\/netherite_scrap.json$"
+			},
+			{
+				"namespace": "^geolosys$",
+				"path": "(?<!copper_ingot)_from_cluster_smelting.*"
+			},
+			{
+				"namespace": "^geolosys$",
+				"path": "^recipes\/blasting\/netherite_scrap_from_cluster_blasting.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipes\/diamond.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipes\/leather_(?!horse_armor).*json"
+			}
+		]
+	}
+}

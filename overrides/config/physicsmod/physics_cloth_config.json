@@ -1,0 +1,33 @@
+{
+  "entityCustomizations": {
+    "physicsmod:yourself": {
+      "head": [
+        "Pylone"
+      ],
+      "right_leg": [
+        "Pegleg - Right"
+      ],
+      "left_arm": [
+        "Lab Sleeve - Left"
+      ],
+      "body": [
+        "Suit Bow Tie"
+      ]
+    },
+    "4ad18a81-16c2-406d-a87c-0413d9756ffc": {
+      "head": [
+        "Pylone"
+      ],
+      "right_leg": [
+        "Pegleg - Right"
+      ],
+      "left_arm": [
+        "Lab Sleeve - Left"
+      ],
+      "body": [
+        "Suit Bow Tie"
+      ]
+    }
+  },
+  "version": "7067d0d7c990ceb6f747f97502a07e59"
+}

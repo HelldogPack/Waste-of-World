@@ -1,0 +1,24 @@
+{
+	"palette": [
+		{
+			"block": "minecraft:infested_stone_bricks",
+			"char": "X",
+			"damaged": "minecraft:iron_bars"
+		},
+		{
+			"block": "minecraft:smooth_stone_slab[type=double]",
+			"char": "$",
+			"damaged": "minecraft:iron_bars"
+		},
+		{
+			"char": "#",
+			"damaged": "minecraft:iron_bars",
+			"variant": "stonebrick"
+		},
+		{
+			"char": "}",
+			"damaged": "minecraft:iron_bars",
+			"variant": "stonebrick_rubble"
+		}
+	]
+}

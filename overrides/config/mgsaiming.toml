@@ -1,0 +1,9 @@
+
+[Items]
+	#Items that trigger MGS Aiming
+	mgs_aiming_items = ["minecraft:spyglass", "cgm:pistol"]
+
+	[Items."Tetra Modules"]
+		#Tetra modules that trigger MGS Aiming, in the format: "single/light_handle"
+		mgs_aiming_modules = []
+

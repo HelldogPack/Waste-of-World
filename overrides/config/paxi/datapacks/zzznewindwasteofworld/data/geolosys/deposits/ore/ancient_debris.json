@@ -1,0 +1,28 @@
+{
+  "type": "geolosys:deposit_dike",
+  "config": {
+    "yMin": -56,
+    "yMax": -42,
+    "baseRadius": 3,
+    "biomeTag": "#minecraft:is_overworld",
+    "blocks": {
+      "default": [
+        {
+          "block": "geolosys:ancient_debris_ore",
+          "chance": 0.6
+        },
+        {
+          "block": null,
+          "chance": 0.4
+        }
+      ]
+    },
+    "samples": [
+      {
+        "block": "minecraft:ancient_debris",
+        "chance": 1.0
+      }
+    ],
+    "generationWeight": 1
+  }
+}

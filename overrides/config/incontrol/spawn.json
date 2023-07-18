@@ -1,0 +1,17 @@
+[
+	{
+		"maxheight": 60,
+		"mob": "eyesinthedarkness:eyes",
+		"inbuilding": false,
+		"result": "default"
+	},
+	{
+		"mob": "eyesinthedarkness:eyes",
+		"result": "deny"
+	},
+	{
+		"maxheight": 63,
+		"hostile": true,
+		"result": "deny"
+	}
+]

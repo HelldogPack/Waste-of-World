@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "nwtweaks:plant_fiber"
+		},
+		{
+			"item": "nwtweaks:plant_fiber"
+		},
+		{
+			"item": "nwtweaks:plant_fiber"
+		},
+		{
+			"item": "minecraft:bone"
+		}
+	],
+	"result": {
+		"item": "nwtweaks:plant_string"
+	}
+}
+

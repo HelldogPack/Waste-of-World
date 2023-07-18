@@ -1,0 +1,53 @@
+{
+  "general": {
+    "displayTooltip": true,
+    "shiftForDetails": false,
+    "hideShiftText": false,
+    "displayMode": "TOGGLE",
+    "hideFromPlayerList": true,
+    "hideFromDebug": true,
+    "enableTextToSpeech": false,
+    "rateLimit": 250
+  },
+  "overlay": {
+    "position": {
+      "align": {
+        "x": "CENTER",
+        "y": "TOP"
+      },
+      "anchor": {
+        "x": "CENTER",
+        "y": "TOP"
+      },
+      "x": 0,
+      "y": 2,
+      "bossBarsOverlap": false
+    },
+    "color": {
+      "backgroundAlpha": 204,
+      "themes": [
+        {
+          "id": "custom:wasted",
+          "type": "waila:gradient",
+          "backgroundColor": 2103830,
+          "gradientStart": 5984844,
+          "gradientEnd": 9064491,
+          "borderSize": 1,
+          "borderOffset": 1,
+          "drawCorner": false,
+          "fontColor": 10526880
+        }
+      ],
+      "activeTheme": "custom:wasted"
+    },
+    "scale": 1.0
+  },
+  "formatter": {
+    "modName": "§9§o%s",
+    "blockName": "§f%s",
+    "fluidName": "§f%s",
+    "entityName": "§f%s",
+    "registryName": "§8%s"
+  },
+  "configVersion": 1
+}

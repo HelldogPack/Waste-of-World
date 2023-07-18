@@ -1,0 +1,289 @@
+{
+	"root_resistance": {
+		"title": {"text":"+9.6% Resistance"},
+		"frame": "challenge",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.096,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"root_melee_damage": {
+		"title": {"text":"+20% Melee Damage"},
+		"frame": "challenge",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"root_ranged_damage": {
+		"title": {"text":"+15% Ranged Damage"},
+		"frame": "challenge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"root_combat_stamina": {
+		"title": {"text":"-12.8% Stamina consumption on Combat"},
+		"frame": "challenge",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "feathers:endurance"
+			}
+		},
+		"rewards": [
+		]
+	},
+	"resistance": {
+		"title": {"text":"+ 2.4% Resistance"},
+		"frame": "challenge",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.024,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"health_regen": {
+		"title": {"text":"+10% Health Regeneration"},
+		"frame": "challenge",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.024,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"health": {
+		"title": {"text":"+2 Hearts"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.024,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"melee_damage": {
+		"title": {"text":"+4% Melee Damage"},
+		"frame": "challenge",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"atack_speed": {
+		"title": {"text":"+4% Atack Speed"},
+		"frame": "challenge",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"atack_reach": {
+		"title": {"text":"+8% Attack Reach"},
+		"frame": "challenge",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"ranged_damage": {
+		"title": "+3% Ranged Damage",
+		"frame": "challenge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"armor_piercing": {
+		"title": "+6% Bullet Armor Piercing",
+		"frame": "challenge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"headshot_damage": {
+		"title": "+5% Headshot Damage",
+		"frame": "challenge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"combat_stamina": {
+		"title": {"text":"-3.2% Stamina consumption on Combat"},
+		"frame": "challenge",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "feathers:endurance"
+			}
+		},
+		"rewards": [
+		]
+	},
+	"combat_stamina": {
+		"title": {"text":"-3.2% Stamina consumption on Combat"},
+		"frame": "challenge",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "feathers:endurance"
+			}
+		},
+		"rewards": [
+		]
+	},
+	"combat_stamina": {
+		"title": {"text":"-3.2% Stamina consumption on Combat"},
+		"frame": "challenge",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "feathers:endurance"
+			}
+		},
+		"rewards": [
+		]
+	}
+}

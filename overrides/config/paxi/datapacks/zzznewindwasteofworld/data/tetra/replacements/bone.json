@@ -1,0 +1,101 @@
+[
+  {
+    "predicate": {
+      "items": [
+        "primitivestart:bone_shovel"
+      ]
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": [
+        "single/basic_shovel",
+        "basic_shovel/bone"
+      ],
+      "single/handle": [
+        "single/basic_handle",
+        "basic_handle/stick"
+      ]
+    },
+    "improvements": {
+      "single/head:arrested": 0
+    }
+  },
+  {
+    "predicate": {
+      "items": [
+        "primitivestart:bone_pickaxe"
+      ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_pickaxe_left",
+        "basic_pickaxe/bone"
+      ],
+      "double/head_right": [
+        "double/basic_pickaxe_right",
+        "basic_pickaxe/bone"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    },
+    "improvements": {
+      "double/head_left:arrested": 0,
+      "double/head_right:arrested": 0
+    }
+  },
+  {
+    "predicate": {
+      "items": [
+        "primitivestart:bone_hoe"
+      ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/hoe_left",
+        "hoe/bone"
+      ],
+      "double/head_right": [
+        "double/butt_right",
+        "butt/bone"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    },
+    "improvements": {
+      "double/head_left:arrested": 0,
+      "double/head_right:arrested": 0
+    }
+  },
+  {
+    "predicate": {
+      "items": [
+        "primitivestart:bone_axe"
+      ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_axe_left",
+        "basic_axe/bone"
+      ],
+      "double/head_right": [
+        "double/butt_right",
+        "butt/bone"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    },
+    "improvements": {
+      "double/head_left:arrested": 0,
+      "double/head_right:arrested": 0
+    }
+  }
+]

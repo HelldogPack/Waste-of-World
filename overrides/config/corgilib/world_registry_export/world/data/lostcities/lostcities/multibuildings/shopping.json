@@ -1,0 +1,8 @@
+{
+	"buildings": [
+		[ "shopping00", "shopping01" ],
+		[ "shopping10", "shopping11" ]
+	],
+	"dimx": 2,
+	"dimz": 2
+}

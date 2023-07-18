@@ -1,0 +1,8 @@
+{
+	"buildings": [
+		"radiotower"
+	],
+	"heightoffset": -3,
+	"terrainfix": "none",
+	"terrainheight": "highest"
+}

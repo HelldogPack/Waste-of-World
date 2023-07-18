@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iwi",
+        "wcw",
+        "iwi"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "w": {
+            "item": "compactmachines:wall"
+        },
+        "c": {
+            "item": "minecraft:copper_block"
+        }
+    },
+    "result": {
+        "item": "compactmachines:machine_tiny",
+        "count": 1
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "default": [
+    {
+      "slot": 0,
+      "stack": {
+        "id": "cgm:pistol",
+        "Count": 1,
+        "tag": {
+          "AmmoCount": 12
+        }
+      }
+    },
+    {
+      "slot": 1,
+      "stack": {
+        "id": "nwtweaks:broken_iron_sword",
+        "Count": 1,
+        "tag": {
+          "Damage": 25
+        }
+      }
+    },
+    {
+      "slot": 4,
+      "stack": {
+        "id": "firstaid:plaster",
+        "Count": 2
+      }
+    },
+    {
+      "slot": 35,
+      "stack": {
+        "id": "cgm:basic_bullet",
+        "Count": 20
+      }
+    },
+    {
+      "slot": 40,
+      "stack": {
+        "id": "hardcore_torches:lit_torch",
+        "Count": 1
+      }
+    }
+  ]
+}

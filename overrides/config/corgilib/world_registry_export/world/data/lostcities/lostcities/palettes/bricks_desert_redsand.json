@@ -1,0 +1,28 @@
+{
+	"palette": [
+		{
+			"block": "minecraft:red_sandstone@2",
+			"char": "X",
+			"damaged": "minecraft:iron_bars"
+		},
+		{
+			"block": "minecraft:red_sandstone_slab[type=double]",
+			"char": "$",
+			"damaged": "minecraft:iron_bars"
+		},
+		{
+			"blocks": [
+				{
+					"block": "minecraft:red_sandstone",
+					"random": 12
+				},
+				{
+					"block": "minecraft:red_sandstone@2",
+					"random": 2000
+				}
+			],
+			"char": "#",
+			"damaged": "minecraft:iron_bars"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bp",
+    " s"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "p": {
+      "item": "nwtweaks:plant_string"
+    },
+    "b": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "tetra:modular_double",
+    "nbt": {
+      "id": "ce30d7e1-029c-43d6-9dc3-8405e8103c51",
+      "double/handle": "double/basic_handle",
+      "double/head_left": "double/basic_pickaxe_left",
+      "double/head_right": "double/butt_right",
+      "double/binding": "double/binding",
+      "double/basic_handle_material": "basic_handle/stick",
+      "double/basic_pickaxe_left_material": "basic_pickaxe/bone",
+      "double/butt_right_material": "butt/bone",
+      "double/binding_material": "double_binding/plant_string"
+    }
+  }
+}

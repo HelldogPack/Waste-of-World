@@ -1,0 +1,5 @@
+#Render minecraft:snow in the cutout RenderType layer.
+"Render Snow as Cutout" = false
+#Disallows using F4 to toggle vanilla shaders, including winter.json. Ignores if F3 is held
+"Block Shader Toggle" = true
+

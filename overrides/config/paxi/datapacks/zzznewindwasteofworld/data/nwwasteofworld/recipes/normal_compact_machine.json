@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "nwn",
+        "wdw",
+        "nwn"
+    ],
+    "key": {
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "w": {
+            "item": "compactmachines:wall"
+        },
+        "d": {
+            "item": "minecraft:diamond_block"
+        }
+    },
+    "result": {
+        "item": "compactmachines:machine_normal",
+        "count": 1
+    }
+}

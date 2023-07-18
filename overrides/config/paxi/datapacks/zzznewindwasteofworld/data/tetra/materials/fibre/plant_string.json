@@ -1,0 +1,27 @@
+{
+  "key": "plant_string",
+  "category": "fibre",
+  "primary": 4,
+  "secondary": 0.6,
+  "tertiary": 2,
+  "durability": 50,
+  "integrityCost": 1,
+  "integrityGain": 2,
+  "magicCapacity": 60,
+  "toolLevel": 0,
+  "toolEfficiency": 0,
+  "tints": {
+    "glyph": "77bf46",
+    "texture": "77bf46"
+  },
+  "textures": [
+    "crude",
+    "default"
+  ],
+  "material": {
+    "tag": "nwwasteofworld:plant_string"
+  },
+  "requiredTools": {
+    "cut": "minecraft:wood"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "iris.keybind.reload": {
+    "keyCode": 297,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "key.parcool.openSetting": {
+    "keyCode": 80,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
+  },
+  "key.raised.hud.up": {
+    "keyCode": 265,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "iris.keybind.toggleShaders": {
+    "keyCode": 297,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
+  },
+  "key.raised.hud.down": {
+    "keyCode": 264,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "key.whistle.4": {
+    "keyCode": 52,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "key.whistle.3": {
+    "keyCode": 51,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "key.whistle.2": {
+    "keyCode": 50,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "key.whistle.1": {
+    "keyCode": 49,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "key.raised.chat.down": {
+    "keyCode": 264,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
+  },
+  "key.raised.chat.up": {
+    "keyCode": 265,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
+  }
+}

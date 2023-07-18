@@ -1,0 +1,19 @@
+{
+	"meta": [
+		{
+			"char": "v",
+			"key": "support"
+		}
+	],
+	"slices": [
+		[ "                ", "                ", "                ", "vvvvvvvvvvvvvvvv", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "vvvvvvvvvvvvvvvv", "                ", "                ", "                " ],
+		[ "                ", "                ", "                ", "wwwwvwwwwwwwvwww", "    T       T   ", "                ", "                ", "                ", "                ", "                ", "                ", "    T       T   ", "wwwwvwwwwwwwvwww", "                ", "                ", "                " ],
+		[ "                ", "                ", "                ", "    w       w   ", "                ", "                ", "                ", "                ", "                ", "                ", "                ", "                ", "    w       w   ", "                ", "                ", "                " ],
+		[ "                ", "                ", "                ", "    w       w   ", "                ", "                ", "                ", "                ", "                ", "                ", "                ", "                ", "    w       w   ", "                ", "                ", "                " ],
+		[ "                ", "                ", "                ", "    w       w   ", "                ", "                ", "                ", "                ", "                ", "                ", "                ", "                ", "    w       w   ", "                ", "                ", "                " ],
+		[ "                ", "                ", "                ", "    w       w   ", "                ", "                ", "                ", "                ", "                ", "                ", "                ", "                ", "    w       w   ", "                ", "                ", "                " ],
+		[ "                ", "                ", "                ", "vvvvvvvvvvvvvvvv", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "vvvvvvvvvvvvvvvv", "                ", "                ", "                " ]
+	],
+	"xsize": 16,
+	"zsize": 16
+}

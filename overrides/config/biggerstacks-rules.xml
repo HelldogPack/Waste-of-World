@@ -1,0 +1,60 @@
+<ruleset version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://codeberg.org/PORTB/BiggerStacksConfigLib/raw/branch/master/extra/schema.xsd">
+	<!-- recommended that you keep this -->
+	<!-- if you don't, make sure that your other rules don't make buckets stack, it will cause issues -->
+	<rule stacksize="1">
+		<condition>is_bucket</condition>
+	</rule>
+
+	<rule stacksize="4">
+		<or>
+			<condition>id minecraft:potion</condition>
+			<condition>id minecraft:lingering_potion</condition>
+			<condition>id minecraft:splash_potion</condition>
+		</or>
+	</rule>
+
+	<rule stacksize="8">
+		<condition>id minecraft:enchanted_book</condition>
+	</rule>
+
+	<rule stacksize="16">
+		<condition>is_food</condition>
+	</rule>
+
+	<rule stacksize="48">
+		<condition>is_block</condition>
+	</rule>
+
+	<rule stacksize="24">
+		<or>
+			<condition>id cgm:missile</condition>
+		</or>
+	</rule>
+
+	<rule stacksize="72">
+		<or>
+			<condition>id cgm:shell</condition>
+		</or>
+	</rule>
+
+	<rule stacksize="144">
+		<or>
+			<condition>id cgm:advanced_bullet</condition>
+		</or>
+	</rule>
+
+	<rule stacksize="216">
+		<or>
+			<condition>id cgm:basic_bullet</condition>
+		</or>
+	</rule>
+
+	<rule stacksize="24">
+		<condition>stacksize = 16</condition>
+	</rule>
+
+	<rule stacksize="32">
+		<condition>stacksize = 64</condition>
+	</rule>
+
+</ruleset>

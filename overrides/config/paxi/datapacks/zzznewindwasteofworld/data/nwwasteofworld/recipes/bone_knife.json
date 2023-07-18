@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "pb",
+    "s "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "p": {
+      "item": "nwtweaks:plant_fiber"
+    },
+    "b": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "tetra:modular_sword",
+    "nbt": {
+      "id": "2c13c4d5-8665-41c0-b6cd-11df8f403f87",
+      "sword/blade": "sword/short_blade",
+      "sword/hilt": "sword/basic_hilt",
+      "sword/guard": "sword/binding",
+      "sword/short_blade_material": "short_blade/bone",
+      "sword/basic_hilt_material": "basic_hilt/stick",
+      "sword/binding_material": "sword_binding/plant_string"
+    }
+  }
+}

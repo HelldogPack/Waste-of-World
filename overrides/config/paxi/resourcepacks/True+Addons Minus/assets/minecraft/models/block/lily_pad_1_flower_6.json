@@ -1,0 +1,7 @@
+{
+    "parent": "block/lily_pad_template",
+    "textures": {
+        "lily_pad_flower": "block/lily_pad_flower_6",
+		"lily_pad": "block/lily_pad_1"
+    }
+}

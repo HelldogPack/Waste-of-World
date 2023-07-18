@@ -1,0 +1,14 @@
+
+["Darkest Stress Configs"]
+	#If TRUE dark areas will cause stress to the player.
+	lightCauseStress = true
+	#If TRUE hunger will cause stress to the player.
+	hungerCauseStress = true
+	#At how much hunger should the player start stressing out. Default: 10 (5 drumsticks)
+	#Range: 0 ~ 20
+	hungerCauseStressMark = 10
+	#If TRUE sleeping will relieve stress of the player.
+	sleepRelieveStress = true
+	#If TRUE reaching max stress will slowly kill you.
+	stressCauseHeartAttack = true
+

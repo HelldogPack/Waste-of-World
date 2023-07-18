@@ -1,0 +1,7 @@
+#Sun May 21 18:54:26 CEST 2023
+customLight=true
+Tonemap=true
+emissive_R=2.4
+emissive_B=3.0
+gamma=1.5
+emissive_G=2.7

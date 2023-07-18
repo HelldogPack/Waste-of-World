@@ -1,0 +1,137 @@
+{
+	"dynamicCrosshair": "Advanced",
+	"disableDebugCrosshair": false,
+	"thirdPersonCrosshair": false,
+	"hideWithScreen": true,
+	"crosshairConfig": {
+		"onBlock": "IfTargeting",
+		"onEntity": true,
+		"holdingTool": "IfTargeting",
+		"holdingMeleeWeapon": true,
+		"holdingRangedWeapon": "IfInteractable",
+		"holdingThrowable": "IfInteractable",
+		"holdingShield": true,
+		"holdingBlock": "IfInteractable",
+		"holdingUsableItem": "IfInteractable"
+	},
+	"color": {
+		"crosshairColor": "Unchanged",
+		"customColor": -5588020,
+		"forceColor": false
+	},
+	"dynamicCrosshairStyle": true,
+	"crosshairStyle": {
+		"regular": {
+			"style": "Default",
+			"color": {
+				"crosshairColor": "Unchanged",
+				"customColor": -5588020,
+				"forceColor": false
+			}
+		},
+		"onBlock": {
+			"style": "Default",
+			"color": {
+				"crosshairColor": "Unchanged",
+				"customColor": -5588020,
+				"forceColor": false
+			}
+		},
+		"onEntity": {
+			"style": "Caret",
+			"color": {
+				"crosshairColor": "Unchanged",
+				"customColor": -256,
+				"forceColor": false
+			}
+		},
+		"holdingTool": {
+			"style": "Square",
+			"color": {
+				"crosshairColor": "Unchanged",
+				"customColor": -5588020,
+				"forceColor": false
+			}
+		},
+		"holdingMeleeWeapon": {
+			"style": "DiagonalCross",
+			"color": {
+				"crosshairColor": "Unchanged",
+				"customColor": -5588020,
+				"forceColor": false
+			}
+		},
+		"holdingRangedWeapon": {
+			"style": "Cross",
+			"color": {
+				"crosshairColor": "Unchanged",
+				"customColor": -5588020,
+				"forceColor": false
+			}
+		},
+		"holdingThrowable": {
+			"style": "Circle",
+			"color": {
+				"crosshairColor": "Unchanged",
+				"customColor": -5588020,
+				"forceColor": false
+			}
+		},
+		"holdingBlock": {
+			"style": "Diamond",
+			"color": {
+				"crosshairColor": "Unchanged",
+				"customColor": -5588020,
+				"forceColor": false
+			}
+		}
+	},
+	"crosshairModifiers": {
+		"modInteractable": {
+			"style": "Brackets",
+			"color": {
+				"crosshairColor": "Unchanged",
+				"customColor": -5588020,
+				"forceColor": false
+			}
+		},
+		"modUsableItem": {
+			"style": "RoundBrackets",
+			"color": {
+				"crosshairColor": "Unchanged",
+				"customColor": -5588020,
+				"forceColor": false
+			}
+		},
+		"modShield": {
+			"style": "BracketsBottom",
+			"color": {
+				"crosshairColor": "Unchanged",
+				"customColor": -5588020,
+				"forceColor": false
+			}
+		},
+		"modCorrectTool": {
+			"style": "Dot",
+			"color": {
+				"crosshairColor": "Unchanged",
+				"customColor": -5588020,
+				"forceColor": false
+			}
+		},
+		"modIncorrectTool": {
+			"style": "DiagonalCross",
+			"color": {
+				"crosshairColor": "Unchanged",
+				"customColor": -5588020,
+				"forceColor": false
+			}
+		}
+	},
+	"enableTweaks": true,
+	"additionalTools": "tetra:modular_double;tetra:modular_single",
+	"additionalMeleeWeapons": "tetra:modular_sword;tetra:modular_single;tetra:modular_double;tetra:modular_polearm",
+	"additionalRangedWeapons": "cgm:pistol;cgm:shotgun;cgm:rifle;cgm:grenade_launcher;cgm:bazooka;cgm:mini_gun;cgm:assault_rifle;cgm:machine_pistol;cgm:heavy_rifle;nzgmaddon:revolver;nzgmaddon:uzi;nzgmaddon:submachine_gun;nzgmaddon:hunting_shotgun;nzgmaddon:double_barreled_shotgun;nzgmaddon:automatic_shotgun;nzgmaddon:heavy_assault_rifle;nzgmaddon:battle_rifle;nzgmaddon:machine_gun;nzgmaddon:hunting_rifle;nzgmaddon:sniper_rifle",
+	"additionalThrowables": "",
+	"additionalUsableItems": "minecraft:flint_and_steel"
+}

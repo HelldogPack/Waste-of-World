@@ -1,0 +1,20 @@
+{
+	"allowDoors": true,
+	"allowFillers": true,
+	"filler": "#",
+	"parts": [
+		{
+			"part": "library00_1",
+			"top": false
+		},
+		{
+			"part": "top_library00_1",
+			"top": true
+		},
+		{
+			"part": "top_library00_2",
+			"top": true
+		}
+	],
+	"rubble": "}"
+}
