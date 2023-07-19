@@ -6,11 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      #- uses: vimtor/action-zip@v1.1
-      #  with:
-      #    files: overrides/ manifest.json modlist.html
-      #    dest: result.zip
+      - run: mkdir result
+      - run: mv overrides/ result/
+      - run: mv manifest.json result/
+      - run: mv modlist.html result/
       - uses: actions/upload-artifact@v3
         with:
           name: curseforge-like
-          path: ${{ github.workspace }}
+          path: ${{ github.workspace }}/result
