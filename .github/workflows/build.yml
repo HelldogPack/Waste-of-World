@@ -13,4 +13,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: curseforge-like
-          path: result.zip
+          path: ${{ github.workspace }}/result.zip
