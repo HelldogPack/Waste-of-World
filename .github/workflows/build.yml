@@ -10,3 +10,7 @@ jobs:
         with:
           files: overrides/ manifest.json modlist.html
           dest: result.zip
+      - uses: actions/upload-artifact@v3
+        with:
+          name: curseforge-like
+          path: result.zip
