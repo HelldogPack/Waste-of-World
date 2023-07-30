@@ -1,6 +1,0 @@
-{
-	"biomes": "#minecraft:is_overworld",
-	"features": "tetra:geode_ore",
-	"step": "underground_ores",
-	"type": "forge:add_features"
-}

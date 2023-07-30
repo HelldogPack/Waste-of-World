@@ -1,8 +1,0 @@
-{
-	"buildings": [
-		[ "town00", "town01" ],
-		[ "town10", "town11" ]
-	],
-	"dimx": 2,
-	"dimz": 2
-}
