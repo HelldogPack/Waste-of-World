@@ -1,6 +1,8 @@
 {
-	"root_resistance": {
-		"title": {"text":"+9.6% Resistance"},
+	"resistance_root": {
+		"title": {
+			"text": "+9.6% Resistance"
+		},
 		"frame": "challenge",
 		"icon": {
 			"type": "effect",
@@ -17,10 +19,139 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"editor-color": "#00c000"
 	},
-	"root_melee_damage": {
-		"title": {"text":"+20% Melee Damage"},
+	"resistance_main": {
+		"title": {
+			"text": "+ 2.4% Resistance"
+		},
+		"frame": "task",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.024,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#00ff00"
+	},
+	"resistance_secondary": {
+		"title": {
+			"text": "+10% Health Regeneration"
+		},
+		"frame": "task",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.024,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#55ff55"
+	},
+	"resistance_tertiary": {
+		"title": {
+			"text": "+2 Hearts"
+		},
+		"frame": "task",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"value": 4.0,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#aaffaa"
+	},
+	"resistance_special1": {
+		"title": "PLACEHOLDER",
+		"frame": "goal",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#004000"
+	},
+	"resistance_special2": {
+		"title": "PLACEHOLDER",
+		"frame": "goal",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#004000"
+	},
+	"resistance_special3": {
+		"title": "PLACEHOLDER",
+		"frame": "goal",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#004000"
+	},
+	"melee_root": {
+		"title": {
+			"text": "+20% Melee Damage"
+		},
 		"frame": "challenge",
 		"icon": {
 			"type": "effect",
@@ -33,14 +164,143 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.melee_damage",
-					"value": 0.20,
+					"value": 0.2,
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"editor-color": "#c00000"
 	},
-	"root_ranged_damage": {
-		"title": {"text":"+15% Ranged Damage"},
+	"melee_main": {
+		"title": {
+			"text": "+4% Melee Damage"
+		},
+		"frame": "task",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#ff0000"
+	},
+	"melee_secondary": {
+		"title": {
+			"text": "+4% Atack Speed"
+		},
+		"frame": "task",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#ff5555"
+	},
+	"melee_tertiary": {
+		"title": {
+			"text": "+8% Attack Reach"
+		},
+		"frame": "task",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#ffaaaa"
+	},
+	"melee_special1": {
+		"title": "PLACEHOLDER",
+		"frame": "goal",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#400000"
+	},
+	"melee_special2": {
+		"title": "PLACEHOLDER",
+		"frame": "goal",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#400000"
+	},
+	"melee_special3": {
+		"title": "PLACEHOLDER",
+		"frame": "goal",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#400000"
+	},
+	"ranged_root": {
+		"title": {
+			"text": "+15% Ranged Damage"
+		},
 		"frame": "challenge",
 		"icon": {
 			"type": "item",
@@ -57,142 +317,12 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"editor-color": "#0000c0"
 	},
-	"root_combat_stamina": {
-		"title": {"text":"-12.8% Stamina consumption on Combat"},
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "feathers:endurance"
-			}
-		},
-		"rewards": [
-		]
-	},
-	"resistance": {
-		"title": {"text":"+ 2.4% Resistance"},
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "resistance"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.resistance",
-					"value": 0.024,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"health_regen": {
-		"title": {"text":"+10% Health Regeneration"},
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "resistance"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.resistance",
-					"value": 0.024,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"health": {
-		"title": {"text":"+2 Hearts"},
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "resistance"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.resistance",
-					"value": 0.024,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"melee_damage": {
-		"title": {"text":"+4% Melee Damage"},
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "strength"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
-					"value": 0.04,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"atack_speed": {
-		"title": {"text":"+4% Atack Speed"},
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "strength"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
-					"value": 0.04,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"atack_reach": {
-		"title": {"text":"+8% Attack Reach"},
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "strength"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
-					"value": 0.04,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"ranged_damage": {
+	"ranged_main": {
 		"title": "+3% Ranged Damage",
-		"frame": "challenge",
+		"frame": "task",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -208,11 +338,12 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"editor-color": "#0000ff"
 	},
-	"armor_piercing": {
+	"ranged_secondary": {
 		"title": "+6% Bullet Armor Piercing",
-		"frame": "challenge",
+		"frame": "task",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -228,11 +359,12 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"editor-color": "#5555ff"
 	},
-	"headshot_damage": {
+	"ranged_tertiary": {
 		"title": "+5% Headshot Damage",
-		"frame": "challenge",
+		"frame": "task",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -248,10 +380,70 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"editor-color": "#aaaaff"
 	},
-	"combat_stamina": {
-		"title": {"text":"-3.2% Stamina consumption on Combat"},
+	"ranged_special1": {
+		"title": "PLACEHOLDER",
+		"frame": "goal",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#000040"
+	},
+	"ranged_special2": {
+		"title": "PLACEHOLDER",
+		"frame": "goal",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#000040"
+	},
+	"ranged_special3": {
+		"title": "PLACEHOLDER",
+		"frame": "goal",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#000040"
+	},
+	"stamina_root": {
+		"title": {
+			"text": "-12.8% Stamina consumption on Combat"
+		},
 		"frame": "challenge",
 		"icon": {
 			"type": "effect",
@@ -259,12 +451,45 @@
 				"effect": "feathers:endurance"
 			}
 		},
-		"rewards": [
-		]
+		"rewards": [],
+		"editor-color": "#c0c000"
 	},
-	"combat_stamina": {
-		"title": {"text":"-3.2% Stamina consumption on Combat"},
-		"frame": "challenge",
+	"stamina_main": {
+		"title": {
+			"text": "-3.2% Stamina consumption on Combat"
+		},
+		"frame": "task",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "feathers:cold"
+			}
+		},
+		"rewards": [],
+		"editor-color": "#ffff00"
+	},
+	"stamina_secondary": {
+		"title": "PLACEHOLDER",
+		"frame": "task",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#ffff55"
+	},
+	"stamina_tertiary": {
+		"title": "+1 Feather",
+		"frame": "task",
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -272,18 +497,148 @@
 			}
 		},
 		"rewards": [
-		]
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "feathers:feathers.max_feathers",
+					"value": 2.0,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#ffffaa"
 	},
-	"combat_stamina": {
-		"title": {"text":"-3.2% Stamina consumption on Combat"},
-		"frame": "challenge",
+	"stamina_special1": {
+		"title": "PLACEHOLDER",
+		"frame": "goal",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "feathers:endurance"
+				"item": "bow"
 			}
 		},
 		"rewards": [
-		]
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#404000"
+	},
+	"stamina_special2": {
+		"title": "PLACEHOLDER",
+		"frame": "goal",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#404000"
+	},
+	"stamina_special3": {
+		"title": "PLACEHOLDER",
+		"frame": "goal",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#404000"
+	},
+	"combo_resistance-ranged": {
+		"title": "PLACEHOLDER",
+		"frame": "challenge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#c0ffff"
+	},
+	"combo_resistance-melee": {
+		"title": "PLACEHOLDER",
+		"frame": "challenge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#ffffc0"
+	},
+	"combo_stamina-ranged": {
+		"title": "PLACEHOLDER",
+		"frame": "challenge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#e3e3dd"
+	},
+	"combo_stamina-melee": {
+		"title": "PLACEHOLDER",
+		"frame": "challenge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say PLACEHOLDER"
+				}
+			}
+		],
+		"editor-color": "#ffe0c0"
 	}
 }
