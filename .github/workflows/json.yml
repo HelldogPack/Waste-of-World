@@ -1,0 +1,28 @@
+name: Format Manifest
+
+on:
+  push:
+
+env:
+  GITHUB_TOKEN: ${{ github.token }}
+
+jobs:
+  format:
+    name: Format Manifest
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Format manifest.json
+      run: jq . manifest.json -M > manifest2.json
+    
+    - name: Fix manifests
+      run: rm -rf manifest.json && mv manifest2.json manifest.json
+      
+    
+    - uses: actions4git/add-commit-push@v1
+      with:
+        commit-message: "chore(): Format manifest.json"
