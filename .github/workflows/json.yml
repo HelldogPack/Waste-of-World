@@ -1,4 +1,4 @@
-name: Build and Release
+name: Format Manifest
 
 on:
   push:
@@ -7,8 +7,10 @@ env:
   GITHUB_TOKEN: ${{ github.token }}
 
 jobs:
-  build:
+  format:
     name: Format Manifest
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -17,15 +19,6 @@ jobs:
     - name: Format manifest.json
       run: jq . manifest.json > manifest.json
     
-    - name: Commit files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "JSON Formatter"
-        git add -A
-        git commit -m "chore(): Format manifest.json"
-        
-    - name: Push changes
-      uses: ad-m/github-push-action@v0.6.0
+    - uses: actions4git/add-commit-push@v1
       with:
-        github_token: ${{ github.token }}
-        tags: true
+        commit-message: "chore(): Format manifest.json"
