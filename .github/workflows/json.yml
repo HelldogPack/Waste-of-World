@@ -1,0 +1,40 @@
+name: Build and Release
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+env:
+  GITHUB_TOKEN: ${{ github.token }}
+
+jobs:
+  build:
+    name: Build and Release
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+ 
+    - name: Gets semantic release info
+      id: semantic_release_info
+      uses: jossef/action-semantic-release-info@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+
+    - name: Update package.json version
+      run: jq . manifest.json > manifest.json
+    
+    - name: Commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "JSON Formatter"
+        git add -A
+        git commit -m "chore(): Format manifest.json"
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ github.token }}
+        tags: true
