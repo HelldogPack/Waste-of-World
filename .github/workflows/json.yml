@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Format manifest.json
-      run: jq . manifest.json > manifest.json
+      run: bash -c "jq . manifest.json -M > manifest.json"
     
     - uses: actions4git/add-commit-push@v1
       with:
