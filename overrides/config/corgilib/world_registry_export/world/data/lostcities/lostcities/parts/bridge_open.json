@@ -1,0 +1,16 @@
+{
+	"meta": [
+		{
+			"char": "v",
+			"key": "support"
+		}
+	],
+	"slices": [
+		[ "                ", "                ", "                ", "vvvvvvvvvvvvvvvv", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "SSSSSSSSSSSSSSSS", "vvvvvvvvvvvvvvvv", "                ", "                ", "                " ],
+		[ "                ", "                ", "                ", "wwwwvwwwwwwwvwww", "                ", "                ", "                ", "                ", "                ", "                ", "                ", "                ", "wwwwvwwwwwwwvwww", "                ", "                ", "                " ],
+		[ "                ", "                ", "                ", "    w       w   ", "                ", "                ", "                ", "                ", "                ", "                ", "                ", "                ", "    w       w   ", "                ", "                ", "                " ],
+		[ "                ", "                ", "                ", "    w       w   ", "                ", "                ", "                ", "                ", "                ", "                ", "                ", "                ", "    w       w   ", "                ", "                ", "                " ]
+	],
+	"xsize": 16,
+	"zsize": 16
+}

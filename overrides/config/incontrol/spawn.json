@@ -1,12 +1,26 @@
 [
 	{
+		"mob": "eyesinthedarkness:eyes",
+		"result": "default"
+	},
+	{
 		"maxheight": 60,
 		"mob": "eyesinthedarkness:eyes",
 		"inbuilding": false,
 		"result": "default"
 	},
 	{
+		"maxheight": 60,
+		"mob": "cave_dweller:cave_dweller",
+		"inbuilding": false,
+		"result": "default"
+	},
+	{
 		"mob": "eyesinthedarkness:eyes",
+		"result": "deny"
+	},
+	{
+		"mob": "cave_dweller:cave_dweller",
 		"result": "deny"
 	},
 	{

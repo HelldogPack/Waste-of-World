@@ -20,7 +20,10 @@
 				}
 			}
 		],
-		"editor-color": "#00c000"
+		"editor-color": "#00c000",
+		"metadata": {
+			"icon": "ky9gw46ahxzau63z"
+		}
 	},
 	"resistance_main": {
 		"title": {
@@ -43,7 +46,10 @@
 				}
 			}
 		],
-		"editor-color": "#00ff00"
+		"editor-color": "#00ff00",
+		"metadata": {
+			"icon": "3mv8p9anvauqkwa5"
+		}
 	},
 	"resistance_secondary": {
 		"title": {
@@ -60,13 +66,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.resistance",
-					"value": 0.024,
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.1,
 					"operation": "multiply_total"
 				}
 			}
 		],
-		"editor-color": "#55ff55"
+		"editor-color": "#55ff55",
+		"metadata": {
+			"icon": "1l5jiwmybyxl7oaj"
+		}
 	},
 	"resistance_tertiary": {
 		"title": {
@@ -84,12 +93,15 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "minecraft:generic.max_health",
-					"value": 4.0,
+					"value": 4,
 					"operation": "addition"
 				}
 			}
 		],
-		"editor-color": "#aaffaa"
+		"editor-color": "#aaffaa",
+		"metadata": {
+			"icon": "fu3sn9cxcnma1ftl"
+		}
 	},
 	"resistance_special1": {
 		"title": "PLACEHOLDER",
@@ -100,15 +112,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#004000"
+		"rewards": [],
+		"editor-color": "#004000",
+		"metadata": {
+			"icon": "oy5d47c8twtpwazr"
+		}
 	},
 	"resistance_special2": {
 		"title": "PLACEHOLDER",
@@ -119,15 +127,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#004000"
+		"rewards": [],
+		"editor-color": "#004000",
+		"metadata": {
+			"icon": "7wioadyjb64dclys"
+		}
 	},
 	"resistance_special3": {
 		"title": "PLACEHOLDER",
@@ -138,15 +142,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#004000"
+		"rewards": [],
+		"editor-color": "#004000",
+		"metadata": {
+			"icon": "rwrhxwhg975n3czp"
+		}
 	},
 	"melee_root": {
 		"title": {
@@ -169,7 +169,10 @@
 				}
 			}
 		],
-		"editor-color": "#c00000"
+		"editor-color": "#c00000",
+		"metadata": {
+			"icon": "msf8ei8co3q8jdr6"
+		}
 	},
 	"melee_main": {
 		"title": {
@@ -192,7 +195,10 @@
 				}
 			}
 		],
-		"editor-color": "#ff0000"
+		"editor-color": "#ff0000",
+		"metadata": {
+			"icon": "stdlnu44v66sawic"
+		}
 	},
 	"melee_secondary": {
 		"title": {
@@ -209,13 +215,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
+					"attribute": "minecraft:generic.attack_speed",
 					"value": 0.04,
 					"operation": "multiply_total"
 				}
 			}
 		],
-		"editor-color": "#ff5555"
+		"editor-color": "#ff5555",
+		"metadata": {
+			"icon": "bd4dqp4aimngi8pr"
+		}
 	},
 	"melee_tertiary": {
 		"title": {
@@ -232,13 +241,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
-					"value": 0.04,
+					"attribute": "forge:attack_range",
+					"value": 0.08,
 					"operation": "multiply_total"
 				}
 			}
 		],
-		"editor-color": "#ffaaaa"
+		"editor-color": "#ffaaaa",
+		"metadata": {
+			"icon": "z6k71b6hif8qckcs"
+		}
 	},
 	"melee_special1": {
 		"title": "PLACEHOLDER",
@@ -249,15 +261,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#400000"
+		"rewards": [],
+		"editor-color": "#400000",
+		"metadata": {
+			"icon": "0u7dz4gjl0b78u99"
+		}
 	},
 	"melee_special2": {
 		"title": "PLACEHOLDER",
@@ -268,15 +276,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#400000"
+		"rewards": [],
+		"editor-color": "#400000",
+		"metadata": {
+			"icon": "5gdvb7o3tch8fhfz"
+		}
 	},
 	"melee_special3": {
 		"title": "PLACEHOLDER",
@@ -287,15 +291,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#400000"
+		"rewards": [],
+		"editor-color": "#400000",
+		"metadata": {
+			"icon": "88qdw7io9sqaxzfc"
+		}
 	},
 	"ranged_root": {
 		"title": {
@@ -318,7 +318,10 @@
 				}
 			}
 		],
-		"editor-color": "#0000c0"
+		"editor-color": "#0000c0",
+		"metadata": {
+			"icon": "lfneo5zgzd94uiln"
+		}
 	},
 	"ranged_main": {
 		"title": "+3% Ranged Damage",
@@ -339,10 +342,13 @@
 				}
 			}
 		],
-		"editor-color": "#0000ff"
+		"editor-color": "#0000ff",
+		"metadata": {
+			"icon": "5p182695ar3n0iew"
+		}
 	},
 	"ranged_secondary": {
-		"title": "+6% Bullet Armor Piercing",
+		"title": "+6% Projectile Armor Piercing",
 		"frame": "task",
 		"icon": {
 			"type": "item",
@@ -350,17 +356,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.ranged_damage",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"editor-color": "#5555ff"
+		"rewards": [],
+		"editor-color": "#5555ff",
+		"metadata": {
+			"icon": "chbnvuxroxv7x3x2"
+		}
 	},
 	"ranged_tertiary": {
 		"title": "+5% Headshot Damage",
@@ -371,20 +371,14 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.ranged_damage",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"editor-color": "#aaaaff"
+		"rewards": [],
+		"editor-color": "#aaaaff",
+		"metadata": {
+			"icon": "4l7hudtpztwapq6t"
+		}
 	},
 	"ranged_special1": {
-		"title": "PLACEHOLDER",
+		"title": "+30% Ammo Loading Speed",
 		"frame": "goal",
 		"icon": {
 			"type": "item",
@@ -392,15 +386,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#000040"
+		"rewards": [],
+		"editor-color": "#000040",
+		"metadata": {
+			"icon": "hga7ld17eg9zo3ma"
+		}
 	},
 	"ranged_special2": {
 		"title": "PLACEHOLDER",
@@ -411,15 +401,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#000040"
+		"rewards": [],
+		"editor-color": "#000040",
+		"metadata": {
+			"icon": "0jeavgk2w3do7dbj"
+		}
 	},
 	"ranged_special3": {
 		"title": "PLACEHOLDER",
@@ -430,15 +416,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#000040"
+		"rewards": [],
+		"editor-color": "#000040",
+		"metadata": {
+			"icon": "vw4t38j0d7g5okcu"
+		}
 	},
 	"stamina_root": {
 		"title": {
@@ -452,7 +434,10 @@
 			}
 		},
 		"rewards": [],
-		"editor-color": "#c0c000"
+		"editor-color": "#c0c000",
+		"metadata": {
+			"icon": "4qw6xdelqetloj4m"
+		}
 	},
 	"stamina_main": {
 		"title": {
@@ -466,7 +451,10 @@
 			}
 		},
 		"rewards": [],
-		"editor-color": "#ffff00"
+		"editor-color": "#ffff00",
+		"metadata": {
+			"icon": "4xjle0x8poh0wews"
+		}
 	},
 	"stamina_secondary": {
 		"title": "PLACEHOLDER",
@@ -477,15 +465,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#ffff55"
+		"rewards": [],
+		"editor-color": "#ffff55",
+		"metadata": {
+			"icon": "0nioc0717bpmebqb"
+		}
 	},
 	"stamina_tertiary": {
 		"title": "+1 Feather",
@@ -501,12 +485,15 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "feathers:feathers.max_feathers",
-					"value": 2.0,
+					"value": 2,
 					"operation": "addition"
 				}
 			}
 		],
-		"editor-color": "#ffffaa"
+		"editor-color": "#ffffaa",
+		"metadata": {
+			"icon": "cremmjqxuqd83646"
+		}
 	},
 	"stamina_special1": {
 		"title": "PLACEHOLDER",
@@ -517,15 +504,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#404000"
+		"rewards": [],
+		"editor-color": "#404000",
+		"metadata": {
+			"icon": "0v3rfumymd2tvlvv"
+		}
 	},
 	"stamina_special2": {
 		"title": "PLACEHOLDER",
@@ -536,15 +519,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#404000"
+		"rewards": [],
+		"editor-color": "#404000",
+		"metadata": {
+			"icon": "v8zdi2wfe9ti4qmm"
+		}
 	},
 	"stamina_special3": {
 		"title": "PLACEHOLDER",
@@ -555,15 +534,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#404000"
+		"rewards": [],
+		"editor-color": "#404000",
+		"metadata": {
+			"icon": "xm9hvrhptm9s7zlc"
+		}
 	},
 	"combo_resistance-ranged": {
 		"title": "PLACEHOLDER",
@@ -574,15 +549,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#c0ffff"
+		"rewards": [],
+		"editor-color": "#c0ffff",
+		"metadata": {
+			"icon": "o5qauqvmh124hzzx"
+		}
 	},
 	"combo_resistance-melee": {
 		"title": "PLACEHOLDER",
@@ -593,15 +564,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#ffffc0"
+		"rewards": [],
+		"editor-color": "#ffffc0",
+		"metadata": {
+			"icon": "5azyp42sziptv3wo"
+		}
 	},
 	"combo_stamina-ranged": {
 		"title": "PLACEHOLDER",
@@ -612,15 +579,11 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#e3e3dd"
+		"rewards": [],
+		"editor-color": "#e3e3dd",
+		"metadata": {
+			"icon": "49rwfpbd4u0jq2oj"
+		}
 	},
 	"combo_stamina-melee": {
 		"title": "PLACEHOLDER",
@@ -631,14 +594,10 @@
 				"item": "bow"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "say PLACEHOLDER"
-				}
-			}
-		],
-		"editor-color": "#ffe0c0"
+		"rewards": [],
+		"editor-color": "#ffe0c0",
+		"metadata": {
+			"icon": "ddqqwf6ihgmfkq2z"
+		}
 	}
 }

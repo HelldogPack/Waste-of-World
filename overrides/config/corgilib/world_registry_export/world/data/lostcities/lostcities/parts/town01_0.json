@@ -1,0 +1,12 @@
+{
+	"slices": [
+		[ "##SQSQSQSQSQSQSQ", "#SQSQSQSQSQSQSQS", "#QSQSQSQSQSQSQSQ", "#SQSQSQSQSQSQSQS", "#QSQSQSQSQSQSQSQ", "#SQSQSQSQSQSQSQS", "#QSQSQSQSQSQSQSQ", "#SQSQSQSQSQSQSQS", "#QSQSQSQSQSQSQSQ", "#SQSQSQSQSQSQSQS", "#QSQSQSQSQSQSQSQ", "#SQSQSQSQSQSQSQS", "#QSQSQSQSQSQSQSQ", "#SQSQSQSQSQSQSQS", "##SQSQSQSQSQSQS#", "################" ],
+		[ "##              ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a       T       ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "##             #", "##aaaaaaaaaaaaa#" ],
+		[ "##              ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "##             #", "##aaaaaaaaaaaaa#" ],
+		[ "##              ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "##             #", "##aaaaaaaaaaaaa#" ],
+		[ "##              ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "a               ", "##             #", "##aaaaaaaaaaaaa#" ],
+		[ "################", "################", "################", "################", "################", "################", "################", "################", "################", "################", "################", "################", "################", "################", "################", "################" ]
+	],
+	"xsize": 16,
+	"zsize": 16
+}

@@ -1,0 +1,18 @@
+{
+	"meta": [
+		{
+			"boolean": true,
+			"key": "dontconnect"
+		}
+	],
+	"slices": [
+		[ "################", "#SSQQSSQQSSQQSSQ", "#SSQQSSQQSSQQSSQ", "#QQSSQQSSQQSSQQS", "#QQSSQQSSQQSSQQS", "#SSQQSSQQSSQQSSQ", "#SSQQSSQQSSQQSSQ", "#QQSSQQSSQQSSQQS", "#QQSSQQSSQQSSQQS", "#SSQQSSQQSSQQSSQ", "#SSQQSSQQSSQQSSQ", "#QQSSQQSSQQSSQQS", "#QQSSQQSSQQSSQQS", "#SSQQSSQQSSQQSSQ", "#SSQQSSQQSSQQSSQ", "#QQSSQQSSQQSSQQS" ],
+		[ "                ", " #              ", "                ", "                ", "                ", "       #))))#   ", "                ", "                ", "                ", "       w    w   ", "                ", "                ", "                ", "                ", "                ", "       w    w   " ],
+		[ "                ", " w              ", "                ", "                ", "                ", "       w    w   ", "      T#))))#T  ", "                ", "                ", "       w    w   ", "                ", "                ", "                ", "                ", "                ", "       w    w   " ],
+		[ "                ", " w              ", "                ", "                ", "                ", "                ", "       w    w   ", "       #))))#   ", "                ", "       w    w   ", "                ", "                ", "                ", "                ", "                ", "       w    w   " ],
+		[ "                ", " w              ", "                ", "                ", "                ", "                ", "                ", "       w    w   ", "       #))))#   ", "       w    w   ", "                ", "                ", "                ", "                ", "                ", "       w    w   " ],
+		[ "                ", " w              ", "                ", "                ", "                ", "                ", "                ", "                ", "       w    w   ", "       #))))#   ", "                ", "                ", "                ", "                ", "                ", "       w    w   " ]
+	],
+	"xsize": 16,
+	"zsize": 16
+}

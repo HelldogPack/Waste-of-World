@@ -1,0 +1,16 @@
+{
+	"palette": [
+		{
+			"block": "minecraft:glass",
+			"char": "+"
+		},
+		{
+			"block": "minecraft:glass_pane",
+			"char": "`"
+		},
+		{
+			"block": "minecraft:glass_pane",
+			"char": "a"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"biomes": "#geolosys:all_dimensions",
+	"features": "geolosys:deposits_placed",
+	"step": "underground_ores",
+	"type": "forge:add_features"
+}

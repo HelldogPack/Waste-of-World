@@ -11,6 +11,10 @@
 	#How many experience points are used in a single right click.
 	#Range: > 1
 	expIncrement = 1
+	#If true, torches will lose fuel while placed as a block.
+	tickInWorldTorch = true
+	#If true, lanterns will lose fuel while placed as a block.
+	tickInWorldLantern = true
 
 #Oil Can Settings
 [oil_can]
@@ -64,7 +68,7 @@
 #Lantern Settings
 [lantern]
 	#If this mod also affects lanterns.
-	lanternsUseFuel = false
+	lanternsUseFuel = true
 	#The max amount of fuel a lantern can hold. There are 20 ticks per second so 144000 ticks = 60 minutes.
 	#Range: > 1
 	defaultLanternFuel = 144000
@@ -78,10 +82,10 @@
 	#Range: > 1
 	defLanternFuelItem = 72000
 	#Right click a lantern without holding fuel or a lighter to unlight it.
-	handUnlightLantern = false
+	handUnlightLantern = true
 	#How much fuel a newly crafted lantern starts with.
 	#Range: > 0
-	startingLanternFuel = 0
+	startingLanternFuel = 15000
 	#Allow the player to pick up lanterns with sneak-clicking.
 	pickUpLanterns = true
 

@@ -1,8 +1,17 @@
-#Temperature at wich feathers stop regenerating. 0.0 is normal temperature, 1.0 is same as when receiving cold damage
+#Temperature at which feathers stop regenerating. 0.0 is normal temperature, 1.0 is same as when receiving damage
 #Range: 0.0 ~ 2.0
 "Feather's Freeze Temperature" = 0.6
 #Is the feature active?
 "Block Break Check" = true
+#How many slots a pill pool will have, in addition to the minimum.
+#Range: > 0
+"Pill Pool Minimum Additional Slots" = 13
+#How many slots a pill pool can have, in addition to the minimum.
+#Range: > 0
+"Pill Pool Maximum Additional Slots" = 17
+#How much time does it cost to mine raw stone materials.
+#Range: 0.0 ~ 1.7976931348623157E308
+"Raw Stone Mine Speed Multiplier" = 1.0
 
 [Backpack]
 	#Inventory slots that the backpack gives. First is non enchanted and the rest are an enchantment level each. Non-accumulative.
@@ -11,7 +20,7 @@
 	"Deep Pockets Costs" = [30]
 	#Minimum power required on a enchanting table for a backpack to be enchantable.
 	#Range: 0 ~ 30
-	"Backpack Minimum Enchanting Table Power" = 30
+	"Minimum Enchanting Table Power" = 30
 
 ["Compact Machines"]
 	#Daily Tick from which to start enforcing compact machines unavailability
@@ -21,25 +30,71 @@
 	#Range: 0 ~ 23999
 	"Compact Machines Unavailability End" = 1000
 
-#Underground air is unbreathable.
-["Toxic Gas"]
-	#Is the feature active?
-	Enabled = false
-	#The toxic gas will start at this additional distance from the surface.
-	"Cave Asphyxiation Height Offset" = 8
-	#Y-level below which cave asphyxiation will always apply.
-	"Cave Asphyxiation Damage Height" = 50
-	#Amount of ticks between the damage caused by cave gas asphyxiation.
-	"Cave Asphyxiation Damage Interval" = 120
-	#Amount of damage caused by cave gas asphyxiation.
-	"Cave Asphyxiation Damage Amount" = 3.0
-	#Amount of ticks that the protective mask supplies air for.
-	"Mask Capacity" = [12000, 18000, 24000]
-	#Air that the mask gains each tick when refillable.
-	"Mask Refill Speed" = 3
-
 #Certain conditions will temporally lower your max hp.
 [Radiation]
 	#Is the feature active?
 	Enabled = false
+
+[Skills]
+	#The percentage of the time that's cut from bows and crossbows arrow loading time and guns reloading time.
+	#Range: 0.0 ~ 1.0
+	"Reload Speed" = 0.3
+
+	#The tags an entity has to have for the effects to apply.
+	[Skills.Tags]
+		#Ranged weapons load ammo faster.
+		"Reload Speed" = "_nw-ps_reload_speed"
+
+#Underground air is unbreathable and the darkness consumes.
+["Underground Effects"]
+	#The underground will start at this additional distance from the surface.
+	"Underground Height Offset" = 8
+	#Y-level below which underground effects will always apply.
+	"Underground Inner Height" = 25
+	#Y-level below which underground effects can apply.
+	"Underground Outer Height" = 128
+	#Ticks between checks of being underground.
+	"Underground Check Interval" = 100
+
+#Modifications to ThinAir's Air Bladder
+["Air Bladder"]
+	#The capacity of the bladder in ticks.
+	Capacity = 6000
+	#The durability of the bladder in ticks.
+	Durability = 144000
+	#The speed in air ticks at which the bladder fills the user's air.
+	"Breath Speed" = 4
+	#The amount of ticks the bladder takes to fill up.
+	"Fill Time" = 200
+
+[Sanity]
+	#Holding a valid light source multiplies the amount of sanity gained when standing in darkness to this percentage.
+	#Range: 0.0 ~ 100.0
+	"Held Light Multiplier" = 0.2
+	#Thirst points below which sanity passively changes.
+	#Range: 0 ~ 20
+	"Thirst Threshold" = 6
+	#The temperature at which sanity starts to be affected.
+	#Range: 0.0 ~ 2.0
+	"Temperature Threshold" = 0.5
+	#The amount of sanity gained per tick at fatal temperatures.
+	#Range: -100.0 ~ 100.0
+	"Extreme Temperature Modifier" = -0.4
+	#The amount of sanity gained per tick while the temperature is heading toward a neutral zero.
+	#Range: -100.0 ~ 100.0
+	"Calming Temperature Modifier" = 0.0
+
+["Cave Dweller"]
+	#How much sanity you must have to stop a dweller from move by looking at it.
+	#Range: 0.0 ~ 1.0
+	"Minimum Sanity To Stare" = 0.05
+	#How much sanity is gained when staring at a dweller.
+	#Range: -100.0 ~ 100.0
+	"Sanity Modifier When Staring" = 0.0
+	#How much sanity is gained when staring at a dweller.
+	#Range: -100.0 ~ 100.0
+	"Sanity Modifier When Staring At Red" = 0.0
+	#From how much time underground cave dwellers should be fatal?
+	#Range: > 0
+	"Red Dweller Spawn Time" = 24000
 

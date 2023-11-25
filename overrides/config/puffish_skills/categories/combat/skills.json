@@ -1,10 +1,4 @@
 {
-	"4wbzrlwgrtlk30d4": {
-		"definition": "resistance_root",
-		"x": -64,
-		"y": 0,
-		"root": true
-	},
 	"zopxw0ufn8n48830": {
 		"definition": "melee_root",
 		"x": 0,
@@ -838,5 +832,11 @@
 		"x": 288,
 		"y": 288,
 		"root": false
+	},
+	"n7kxrkn1kh9isuvs": {
+		"definition": "resistance_root",
+		"x": -64,
+		"y": 0,
+		"root": true
 	}
 }

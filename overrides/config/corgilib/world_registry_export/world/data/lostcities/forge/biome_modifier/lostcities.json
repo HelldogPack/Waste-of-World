@@ -1,0 +1,6 @@
+{
+	"biomes": "#minecraft:is_overworld",
+	"features": "lostcities:lostcities",
+	"step": "raw_generation",
+	"type": "forge:add_features"
+}

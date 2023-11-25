@@ -1,0 +1,8 @@
+
+#List of curio slot type settings
+[[curiosSettings]]
+	identifier = "belt_attachment"
+	size = 1
+	visible = true
+	hasCosmetic = false
+

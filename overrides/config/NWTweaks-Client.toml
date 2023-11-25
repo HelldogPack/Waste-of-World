@@ -1,5 +1,38 @@
 #Render minecraft:snow in the cutout RenderType layer.
 "Render Snow as Cutout" = false
-#Disallows using F4 to toggle vanilla shaders, including winter.json. Ignores if F3 is held
+#Disallows using F4 to toggle vanilla shaders, including winter.json. Ignores if F3 is held.
 "Block Shader Toggle" = true
+
+[Fog]
+	#Regular dark fog start.
+	#Range: -512.0 ~ 512.0
+	"Regular Fog Start" = 96.0
+	#Regular dark fog end.
+	#Range: -512.0 ~ 512.0
+	"Regular Fog End" = 128.0
+	#Underground dark fog start.
+	#Range: -512.0 ~ 512.0
+	"Underground Fog Start" = -8.0
+	#Underground dark fog end.
+	#Range: -512.0 ~ 512.0
+	"Underground Fog End" = 24.0
+
+["Video Filter"]
+	#Desaturate the world by this amount.
+	#Range: 0.0 ~ 1.0
+	"Desaturation Factor" = 0.6
+	#Enlighten the world by this amount.
+	#Range: 0.0 ~ 1.0
+	Brightness = 0.3
+
+[HUD]
+	#Render the thirst value next to the bar.
+	"Render Thirst Text" = false
+	#Render the thirst exhaustion value.
+	"Render Thirst Exhaustion" = false
+	#Render the sanity value next to the bar.
+	"Render Sanity Text" = false
+	#Render the sanity value next to the bar.
+	#Range: 2.2250738585072014E-308 ~ 1.7976931348623157E308
+	"Arrow Passsive Scale" = 0.1
 

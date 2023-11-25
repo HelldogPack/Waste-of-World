@@ -9,5 +9,5 @@
 	#Whether the Lightweight enchantment can be enhanted in an enchantment table, or if it is treasure only.
 	"Enable Lightweight Enchantment in Table" = true
 	#How many ticks it takes to regenerate half a feather.
-	"Feathers Cooldown" = 40
+	"Feathers Cooldown" = 270
 

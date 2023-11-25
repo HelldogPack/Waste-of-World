@@ -133,5 +133,6 @@
 	"additionalMeleeWeapons": "tetra:modular_sword;tetra:modular_single;tetra:modular_double;tetra:modular_polearm",
 	"additionalRangedWeapons": "cgm:pistol;cgm:shotgun;cgm:rifle;cgm:grenade_launcher;cgm:bazooka;cgm:mini_gun;cgm:assault_rifle;cgm:machine_pistol;cgm:heavy_rifle;nzgmaddon:revolver;nzgmaddon:uzi;nzgmaddon:submachine_gun;nzgmaddon:hunting_shotgun;nzgmaddon:double_barreled_shotgun;nzgmaddon:automatic_shotgun;nzgmaddon:heavy_assault_rifle;nzgmaddon:battle_rifle;nzgmaddon:machine_gun;nzgmaddon:hunting_rifle;nzgmaddon:sniper_rifle",
 	"additionalThrowables": "",
-	"additionalUsableItems": "minecraft:flint_and_steel"
+	"additionalUsableItems": "minecraft:flint_and_steel",
+	"additionalInteractableBlocks": " "
 }

@@ -1,6 +1,9 @@
 {
 	"replace": false,
 	"values": [
-	"minecraft:lantern"
+	"minecraft:lantern",
+	"minecraft:soul_lantern",
+	"hardcore_torches:lit_lantern",
+	"hardcore_torches:lit_soul_lantern"
 	]
 }

@@ -1,0 +1,17 @@
+{
+	"meta": [
+		{
+			"boolean": true,
+			"key": "nowater"
+		}
+	],
+	"refpalette": "rails",
+	"slices": [
+		[ "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy" ],
+		[ "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy" ],
+		[ "yyyyyyQQQQQyyyyy", "yyyyyyQQQQQyyyyy", "yyyyyyQQQQQyyyyy", "yyyyyyQQQQQyyyyy", "yyyyyyQQQQQyyyyy", "yyyyyyQQQQQyyyyy", "yyyyyyQQQQQyyyyy", "yyyyyyQQQQQyyyyy", "yyyyyyQQQQQyyyyy", "yyyyyyQQQQQyyyyy", "yyyyyyQQQQQyyyyy", "yyyyyyQQQQQyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy", "yyyyyyyyyyyyyyyy" ],
+		[ "w     QQkQQ    w", "w     QQkQQ    w", "w     QQkQQ    w", "w     QQkQQ    w", "w     QQkQQ    w", "w     QQkQQ    w", "w     QQkQQ    w", "w     QQkQQ    w", "w     QgmgQ    w", "w     QQkQQ    w", "w     QQkQQ    w", "w     QQQQQ    w", "w              w", "w              w", "w              w", "wwwwwwwwwwwwwwww" ]
+	],
+	"xsize": 16,
+	"zsize": 16
+}

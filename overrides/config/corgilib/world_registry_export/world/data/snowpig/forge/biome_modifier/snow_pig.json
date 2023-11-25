@@ -1,0 +1,10 @@
+{
+	"biomes": "#snowpig:snow_pig_spawn_in",
+	"spawners": {
+		"maxCount": 4,
+		"minCount": 1,
+		"type": "snowpig:snow_pig",
+		"weight": 20
+	},
+	"type": "forge:add_spawns"
+}

@@ -1,0 +1,12 @@
+{
+	"biomes": {
+		"type": "forge:any"
+	},
+	"spawners": {
+		"maxCount": 3,
+		"minCount": 1,
+		"type": "zombiemobs:zombie_bear",
+		"weight": 10
+	},
+	"type": "forge:add_spawns"
+}

@@ -1,0 +1,78 @@
+{
+	"citybiomemultipliers": [
+		{
+			"biomes": {
+				"if_any": [
+					"#minecraft:is_ocean"
+				]
+			},
+			"multiplier": 0.10000000149011612
+		},
+		{
+			"biomes": {
+				"if_any": [
+					"#minecraft:is_river"
+				]
+			},
+			"multiplier": 0.30000001192092896
+		}
+	],
+	"citystyles": [
+		{
+			"citystyle": "citystyle_standard",
+			"factor": 0.5
+		},
+		{
+			"biomes": {
+				"if_any": [
+					"minecraft:desert",
+					"minecraft:badlands"
+				]
+			},
+			"citystyle": "citystyle_desert",
+			"factor": 9.0
+		}
+	],
+	"outsidestyle": "outside",
+	"scattered": {
+		"areasize": 8,
+		"chance": 0.10000000149011612,
+		"list": [
+			{
+				"biomes": {
+					"excluding": [
+						"#minecraft:is_ocean",
+						"#minecraft:is_river",
+						"#minecraft:is_beach"
+					]
+				},
+				"maxheightdiff": 3,
+				"name": "radiotower",
+				"weight": 15
+			},
+			{
+				"biomes": {
+					"if_any": [
+						"#minecraft:is_deep_ocean"
+					]
+				},
+				"maxheightdiff": 100,
+				"name": "oilrig",
+				"weight": 1
+			},
+			{
+				"biomes": {
+					"excluding": [
+						"#minecraft:is_ocean",
+						"#minecraft:is_river",
+						"#minecraft:is_beach"
+					]
+				},
+				"maxheightdiff": 2,
+				"name": "cabin",
+				"weight": 10
+			}
+		],
+		"weightnone": 20
+	}
+}
