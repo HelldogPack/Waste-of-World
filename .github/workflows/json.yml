@@ -22,7 +22,13 @@ jobs:
     - name: Fix manifests
       run: rm -rf manifest.json && mv manifest2.json manifest.json
       
-    
-    - uses: actions4git/add-commit-push@v1
+    - name: Setup Git
+      uses: actions4git/setup-git@v1
+
+    - name: Add changes
+      run: git add --all
+
+    - name: Commit and push changes
+      uses: GuillaumeFalourd/git-commit-push@v1.3
       with:
-        commit-message: "chore(): Format manifest.json"
+        commit_message: "chore(): Format manifest.json"
