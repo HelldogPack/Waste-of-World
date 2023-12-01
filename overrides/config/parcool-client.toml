@@ -46,7 +46,7 @@
 	#Enable custom animation of falling
 	enable_falling_animation = true
 	#Enable first-person-view animations
-	enable_fov_animation = true
+	enable_fov_animation = false
 	#Enable rotation of camera by Dodge
 	enable_camera_rotation_dodge = false
 	#Enable rotation of camera by Backward Wall-Jump

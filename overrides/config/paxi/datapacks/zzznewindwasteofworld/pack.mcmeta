@@ -28,6 +28,14 @@
 			{
 				"namespace": "^minecraft$",
 				"path": "^recipes\/leather_(?!horse_armor).*json"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipes\/(stone|granite|diorite|andesite|blackstone)(?:_(?:slab|stairs|wall)(?:_from_\\1_stonecutting){0,1}){0,1}.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^tags\/items\/stone_(?:tool|crafting)_materials\\.json$"
 			}
 		]
 	}

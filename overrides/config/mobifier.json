@@ -30,6 +30,14 @@
         }
       }
     ],
+    "cave_dweller:cave_dweller": [
+      {
+        "conditions_to_apply": [],
+        "attribute_modifier": {
+          "minecraft:generic.armor": "+20.0"
+        }
+      }
+    ],
     "minecraft:player": [
       {
         "conditions_to_apply": [],

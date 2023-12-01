@@ -5,7 +5,7 @@
 	exhaustionType = 1
 	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
 	#Range: 0 ~ 2
-	debugLevel = 2
+	debugLevel = 0
 	#Downwards Speed & Exhaustion Modifer: Reduce downard digging to 80% of normal.
 	#Range: 0 ~ 100
 	downModifier = 80

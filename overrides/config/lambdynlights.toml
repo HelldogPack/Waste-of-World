@@ -231,6 +231,13 @@
 				rotting_stalker = true
 				sneaking_terror = true
 
+			[light_sources.settings.entities.insanelib]
+				area_effect_cloud_3d = true
+
+			[light_sources.settings.entities.enhancedai]
+				thrown_web = true
+				fishing_hook = true
+
 		[light_sources.settings.block_entities]
 
 			[light_sources.settings.block_entities.minecraft]

@@ -6,7 +6,7 @@
 [Fog]
 	#Regular dark fog start.
 	#Range: -512.0 ~ 512.0
-	"Regular Fog Start" = 96.0
+	"Regular Fog Start" = 0.0
 	#Regular dark fog end.
 	#Range: -512.0 ~ 512.0
 	"Regular Fog End" = 128.0
