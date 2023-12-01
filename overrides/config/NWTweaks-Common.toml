@@ -11,7 +11,7 @@
 "Pill Pool Maximum Additional Slots" = 17
 #How much time does it cost to mine raw stone materials.
 #Range: 0.0 ~ 1.7976931348623157E308
-"Raw Stone Mine Speed Multiplier" = 1.0
+"Raw Stone Mine Speed Multiplier" = 8.0
 
 [Backpack]
 	#Inventory slots that the backpack gives. First is non enchanted and the rest are an enchantment level each. Non-accumulative.
@@ -79,7 +79,7 @@
 	"Temperature Threshold" = 0.5
 	#The amount of sanity gained per tick at fatal temperatures.
 	#Range: -100.0 ~ 100.0
-	"Extreme Temperature Modifier" = -0.4
+	"Extreme Temperature Modifier" = -0.04
 	#The amount of sanity gained per tick while the temperature is heading toward a neutral zero.
 	#Range: -100.0 ~ 100.0
 	"Calming Temperature Modifier" = 0.0
@@ -90,10 +90,10 @@
 	"Minimum Sanity To Stare" = 0.05
 	#How much sanity is gained when staring at a dweller.
 	#Range: -100.0 ~ 100.0
-	"Sanity Modifier When Staring" = 0.0
+	"Sanity Modifier When Staring" = -0.2777777777777778
 	#How much sanity is gained when staring at a dweller.
 	#Range: -100.0 ~ 100.0
-	"Sanity Modifier When Staring At Red" = 0.0
+	"Sanity Modifier When Staring At Red" = -0.8333333333333334
 	#From how much time underground cave dwellers should be fatal?
 	#Range: > 0
 	"Red Dweller Spawn Time" = 24000

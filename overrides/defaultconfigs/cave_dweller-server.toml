@@ -16,7 +16,7 @@
 		can_spawn_cooldown_chance = 0.4
 		#Spawn cooldown length in seconds
 		#Range: 0 ~ 86400
-		can_spawn_cooldown = 1200
+		can_spawn_cooldown = 150
 
 	[Timers.Noise]
 		#Minimum time between noise occurrences in seconds
@@ -50,7 +50,7 @@
 	block_light_level = 15
 	#The maximum amount of cave dwellers which can exist at the same time
 	#Range: 0 ~ 100
-	maximum_amount = 0
+	maximum_amount = 5
 	#How close to players the cave dweller is allowed to spawn (in blocks)
 	#Range: 0 ~ 64
 	spawn_distance = 16
@@ -101,4 +101,8 @@
 	#Depth Strider (movement speed in water) bonus
 	#Range: 0.0 ~ 3.0
 	depth_strider_bonus = 1.5
+
+[Misc]
+	#Only play the ambient noises to the current (spawn) target (Note: The target can change when a spawn attempt is not successful)
+	only_play_noise_to_target = false
 

@@ -1,0 +1,25 @@
+
+["Timings and general"]
+	#Integer or int value for number of seconds until a cave-in can randomly occur per player
+	whitelistedBlocks = "[minecraft:stone,minecraft:dirt,minecraft:andesite,minecraft:diorite,minecraft:dripstone_block,minecraft:pointed_dripstone,minecraft:granite,minecraft:deepslate,minecraft:iron_ore,minecraft:gold_ore,minecraft:coal_ore,minecraft:copper_ore,minecraft:redstone_ore,minecraft:deepslate_iron_ore,minecraft:deepslate_gold_ore,minecraft:deepslate_coal_ore,minecraft:deepslate_copper_ore,minecraft:deepslate_redstone_ore]"
+	#Integer or int value of radius that cave in occurs in (unit of blocks)
+	caveinRadius = 30
+	#Integer or int value of how many blocks below the player to search for cave-able blocks
+	caveinHeightBelow = 4
+	#Integer or int value of how many blocks above the player to search for cave-able blocks
+	caveinHeightAbove = 20
+	#Integer or int value for number of seconds until a cave-in can randomly occur per player
+	secondsToCavein = 300
+	#Integer or int value for chance of a cave-in occurring per player (for example, setting to 100 means a 1 in 100 chance of a cave-in every secondsToCavein per player)
+	caveinChance = 30
+	#Integer or int value for height limit where cave-ins can occur. Cave-ins will not modify blocks above or equal to this height limit
+	maxCaveinYLevel = 50
+	#Integer or int value of minimum number of seconds a cave in can last
+	minCaveinDurationSeconds = 15
+	#Integer or int value of maximum number of seconds a cave in can last
+	maxCaveinDurationSeconds = 60
+	#Integer or int value of how many blocks can potentially fall per each server tick during a cave in (a higher number will affect the client and server performance)
+	blockCountToFallPerTick = 2
+	#Double or decimal value of how much a player should shake during a cave in (only adjusts the player's position)
+	relativeShakeAmount = 0.75
+

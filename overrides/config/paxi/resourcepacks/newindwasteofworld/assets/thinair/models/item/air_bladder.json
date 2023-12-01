@@ -1,0 +1,22 @@
+{
+  "overrides": [
+    {
+      "model": "thinair:item/air_bladder_2",
+      "predicate": {
+        "nwtweaks:oxygen_amount": 0.0
+      }
+    },
+    {
+      "model": "thinair:item/air_bladder_1",
+      "predicate": {
+        "nwtweaks:oxygen_amount": 0.33333
+      }
+    },
+    {
+      "model": "thinair:item/air_bladder_0",
+      "predicate": {
+        "nwtweaks:oxygen_amount": 0.66666
+      }
+    }
+  ]
+}

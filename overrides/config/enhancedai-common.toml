@@ -550,7 +550,7 @@
 
 		#Entities in here will not be affected by this feature.
 		[Base.Targeting."Entity Blacklist"]
-			Blacklist = ["minecraft:enderman", "autumnity:turkey"]
+			Blacklist = ["minecraft:enderman", "autumnity:turkey", "cave_dweller:cave_dweller"]
 			#If true the list will be treated as a whitelist instead of blacklist
 			"List as Whitelist" = false
 
